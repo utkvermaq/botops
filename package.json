@@ -1,0 +1,25 @@
+{
+  "name": "telegrambot",
+  "version": "1.0.0",
+  "description": "A simple little framework to create an autoresponder bot for telegram.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "framework",
+    "bot",
+    "autoresponder"
+  ],
+  "author": "SATYA",
+  "license": "ISC",
+  "homepage": "https://webk.telegram.org/",
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "dotenv": "^7.0.0",
+    "node-fetch": "^2.6.1",
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
